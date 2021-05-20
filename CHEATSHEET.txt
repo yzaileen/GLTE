@@ -1,0 +1,22 @@
+CHEAT SHEET
+
+Start the game by uncommenting the command that calls startglte()
+
+When you run personal1, it calls a nonexistent function. replace the 3 in 
+    ch1 = interests[3]
+with 0, 1, or 2. You get something different for each number, but 1's the number for plot advancement.
+
+subject can't be converted into an integer. replace subject in
+    count = count + int(subject)
+with literally any number greater than 0. it doesn't matter. just greater than 0, or the second half
+of the function won't run.
+
+change
+    emptylist.join("*")
+to "*".join(emptylist)
+
+uncomment somethingswrong()
+
+write
+    ending()
+at the bottom 
